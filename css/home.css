@@ -1,7 +1,3 @@
-
-
-
-
 #title {
     padding: 80px 0 120px;
     font-family: 'Open Sans', sans-serif;
@@ -30,40 +26,76 @@
     line-height: 1.4em;
     font-weight: 300;
 }
-/*
-#intro img {
-    max-width: 40em;
-    max-height: 60em;
-    border: .55em solid #2d2d2d;
-}*/
 
 .img-responsive {
     display: block;
     height: auto;
-    max-width: 100%;
-    border: .45em solid #2d2d2d;
+    max-width: 80%;
+    border: .25em solid #2d2d2d;
 }
 
-/* Desktop navigation */
+#main_menu {
+    text-transform: uppercase;
+    margin: 0px;
+}
 
-.navbar .nav,
-.navbar .nav > li {
+#main_menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+
+/* The nav bar itself */
+#main_menu.navbar-default {
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    border-width: 0px;
+    border-radius: 0px;
+    opacity: 0.77;
+}
+
+#main_menu.navbar-default .navbar-nav {
     float: none;
-    display: inline-block;
-    *display:inline;
-    *zoom:1;
-    vertical-align: top;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
 }
 
-.navbar-inner {
-    text-align: center;
-}
-/*
-.navbar .navbar {
-    display: inline-block;
-    float: none;
+#main_menu.navbar-default .navbar-nav > li {
+    color: red;
 }
 
-.navabar .navbar-collapse {
-    text-align: center;
-    }*/
+/* font color and stuff like that */
+#main_menu.navbar-default .navbar-nav>li>a {
+    font-stretch: expanded;
+    font-size: 1.4em;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    background-color: rgba(248, 248, 248, 0);
+    line-height: 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+/* when you however over each option */
+#main_menu.navbar-default .navbar-nav>li>a:hover,
+#main_menu.navbar-default .navbar-nav>li>a:focus {
+    color: black;
+    background-color: whitesmoke;
+    opacity: 0.97;
+}
+
+#main_menu.navbar-default .navbar-toggle {
+    border-color: #5eb4ff;
+}
+
+#main_menu.navbar-default .navbar-toggle:hover,
+#main_menu.navbar-default .navbar-toggle:focus {
+    background-color: #5eb4ff;
+}
+
+#main_menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #5eb4ff;
+}
+
+#main_menu.navbar-default .navbar-toggle:hover .icon-bar,
+#main_menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000000;
+}
