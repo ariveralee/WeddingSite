@@ -1758,7 +1758,7 @@
     color: #7c8184;
     padding-bottom: 2px;
     border-bottom: none;
-    font-size: 2.0em;
+    font-size: 2.5em;
     display: inline-block;
     min-width: 50px;
     min-height: 75px;
@@ -1769,8 +1769,9 @@
     list-style: none;
 }
 
+
 #about a:hover {
-    color: #000000;
+    color: #e60000;
 }
 
 #about .dash {
@@ -1795,6 +1796,12 @@
     max-width: 40em;
     max-height: 20em;
     border: .50em solid #2d2d2d;
+}
+
+#about .engagement {
+    max-width: 0.5em;
+    max-height: 0.5em;
+
 }
 
 
@@ -1884,7 +1891,7 @@
     align-content: center;
     padding: 50px 0 80px;
     color: #9c9c9c;
-    background: #363636;
+    background: #ffffff;
 }
 
 #work h1 {
@@ -1951,20 +1958,19 @@
     height: auto;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: cover;
-    border: .40em solid #282828;
+    background-size: contain;
 }
 
 #work .item-1 {
-    background: #343434;
+    background: whitesmoke;
 }
 
 #work .item-2 {
-    background: #3a3a3a;
+    background: whitesmoke;
 }
 
 #work .item-3 {
-    background: #353535;
+    background: whitesmoke;
 }
 
 #work .item-4 {
@@ -2037,6 +2043,10 @@
     text-align: center;
 }
 
+#contact i {
+    font-size: 2.5em;
+}
+
 #contact h1 {
     color: #282828;
     font-weight: 300;
@@ -2081,7 +2091,7 @@
 
 #footer {
     padding: 65px 0 150px;
-    background: #3c3838;
+    background: #ffffff;
     text-align: center;
     font-weight: 300;
 }
@@ -2138,15 +2148,11 @@
 */
 
 #footer ul .github:hover a {
-    color: #000000;
+    color: #e60000;
 }
 
 #footer ul .linkedin:hover a {
-    color: #4875B4;
-}
-
-#footer ul .twitter:hover a {
-    color: #33CCFF;
+    color: #00004d;
 }
 
 #footer .dash {
