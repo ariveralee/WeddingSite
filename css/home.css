@@ -1721,7 +1721,7 @@
 }
 
 #introduction .chevron div {
-    font-size: 0.9em;
+    font-size: 0.3em;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -1885,13 +1885,13 @@
     max-width: 380px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 1.1em;
+    font-size: 1.4em;
     letter-spacing: 1px;
     font-weight: 300;
-    font-size: 15px;
+    /*font-size: 15px;*/
     line-height: 25px;
-    text-align: left;
-}
+    text-align: center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;}
 
 #interests .dash {
     background: lightgray;
