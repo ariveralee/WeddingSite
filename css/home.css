@@ -1743,10 +1743,13 @@
 }
 
 #about h1 {
-    font-size: 1.9em;
+    font-size: 2em;
     color: #282828;
-    text-transform: uppercase;
-    letter-spacing: 8px;
+    font-family: Papyrus, fantasy;
+    font-style: italic;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: 4px;
     margin-top: 30px;
     margin-bottom: 15px;
 }
@@ -1758,7 +1761,7 @@
     color: #7c8184;
     padding-bottom: 2px;
     border-bottom: none;
-    font-size: 2.5em;
+    font-size: 2.25em;
     display: inline-block;
     min-width: 50px;
     min-height: 75px;
@@ -1768,7 +1771,6 @@
     position: relative;
     list-style: none;
 }
-
 
 #about a:hover {
     color: #e60000;
@@ -1793,15 +1795,17 @@
 }
 
 #about img {
-    max-width: 40em;
-    max-height: 20em;
-    border: .50em solid #2d2d2d;
+    min-width: 20em;
+    min-height: 10em;
+    max-width: 50em;
+    max-height: 30em;
+    padding: 2.5px;
+    border: .20em solid #2d2d2d;
 }
 
 #about .engagement {
     max-width: 0.5em;
     max-height: 0.5em;
-
 }
 
 
@@ -1826,8 +1830,11 @@
     margin-bottom: 35px;
     font-size: 2em;
     font-weight: 300;
+    letter-spacing: 4px;
     color: #282828;
-    letter-spacing: 0.2em;
+    font-family: Papyrus, fantasy;
+    text-transform: none;
+    font-style: italic;
 }
 
 #interests .bold {
@@ -1845,7 +1852,7 @@
 }
 
 #interests i {
-    font-size: 4em;
+    font-size: 3em;
     color: #737373;
 }
 
@@ -1868,6 +1875,9 @@
     letter-spacing: 0.2em;
     font-size: 1.4em;
     padding-bottom: 10px;
+    font-family: Papyrus, fantasy;
+    font-style: italic;
+    text-transform: none;
 }
 
 #interests p {
@@ -1887,152 +1897,6 @@
     background: lightgray;
 }
 
-#work {
-    align-content: center;
-    padding: 50px 0 80px;
-    color: #9c9c9c;
-    background: #ffffff;
-}
-
-#work h1 {
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 35px;
-    color: #F0F0F0;
-}
-
-#work h2 {
-    color: #0099ff;
-    text-transform: none;
-}
-
-#work h3 {
-    margin-top: 0;
-    font-size: 1.7em;
-    text-transform: none;
-}
-
-#work h3 a {
-    color: #0099ff;
-}
-
-#work h3 a:hover {
-    color: #7c7c7c;
-}
-
-#work h4 {
-    text-align: center;
-    padding: 25px 15px;
-    margin: 0;
-    color: #F0F0F0;
-    font-size: 1.7em;
-}
-
-#work p {
-    font-size: 14px;
-    letter-spacing: 2px;
-    line-height: 1.8em;
-    font-weight: 300;
-    color: #F0F0F0;
-}
-
-#work .dash {
-    display: inline-block;
-    background-color: gray;
-}
-
-#work .right,
-#work .left {
-    padding: 0x;
-}
-
-#work .item {
-    padding: 25px;
-}
-
-#work .item img {
-    position: relative;
-    float: none;
-    width: 100%;
-    margin-bottom: 15px;
-    height: auto;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-#work .item-1 {
-    background: whitesmoke;
-}
-
-#work .item-2 {
-    background: whitesmoke;
-}
-
-#work .item-3 {
-    background: whitesmoke;
-}
-
-#work .item-4 {
-    background: #3a3a3a;
-}
-
-#work .item-5 {
-    background: #353535;
-}
-
-#work .item-6 {
-    background: #353535;
-}
-
-#work .item-7 {
-    background: #353535;
-}
-
-#work .right h1 {
-    text-align: center;
-    font-size: 1.7em;
-    margin: 35px 0 35px;
-    color: #F0F0F0;
-}
-
-#work .right h2 {
-    padding: 20px;
-    margin: 0;
-    font-size: 1.7em;
-    background: #3a3a3a;
-}
-
-#work .right .bars {
-    padding: 20px;
-    background: #3c3838;
-}
-
-
-/* font in WORK bars */
-
-#work .bar {
-    width: 100%;
-    font-size: 1.2em;
-    font-weight: 400;
-    text-transform: none;
-    letter-spacing: 2px;
-    text-align: left;
-    margin-bottom: 18px;
-    color: #F0F0F0;
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    ms-animation-duration: 1s;
-}
-
-#work .bar i {
-    font-size: 0.7em;
-    color: #5e5e5e;
-    margin: 0 7px;
-}
-
 #contact {
     padding-top: 120px;
     padding-bottom: 200px;
@@ -2049,10 +1913,12 @@
 
 #contact h1 {
     color: #282828;
+    font-size: 2em;
+    font-family: Papyrus, fantasy;
+    font-style: italic;
     font-weight: 300;
-    font-size: 1.8em;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    text-transform: none;
+    letter-spacing: 4px;
     margin: 10px 0 20px;
 }
 
@@ -2061,10 +1927,11 @@
 }
 
 #contact p {
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: 300;
     letter-spacing: 1px;
     margin: 30px auto 35px;
+    line-height: 25px;
     max-width: 500px;
 }
 
@@ -2140,7 +2007,10 @@
     color: inherit;
 }
 
+
 /* removed */
+
+
 /*
 #footer ul .email:hover a {
     color: #000000;
