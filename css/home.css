@@ -1423,8 +1423,9 @@
     margin-bottom: 35px;
     font-size: 14px;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 3px;
+    font-family: Papyrus, fantasy;
 }
 
 .pushy ul li:last-of-type {
@@ -1582,9 +1583,10 @@
 
 .small-nav ul li {
     display: inline-block;
-    text-transform: uppercase;
+    text-transform: none;
     padding: 10px 8px;
     font-size: 15px;
+    font-family: Papyrus, fantasy;
 }
 
 .small-nav ul li a {
@@ -1891,7 +1893,8 @@
     /*font-size: 15px;*/
     line-height: 25px;
     text-align: center;
-    font-family: Copperplate, "Copperplate Gothic Light", fantasy;}
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
 
 #interests .dash {
     background: lightgray;
@@ -2017,11 +2020,11 @@
 }
 */
 
-#footer ul .github:hover a {
+#footer ul .target:hover a {
     color: #e60000;
 }
 
-#footer ul .linkedin:hover a {
+#footer ul .amazon:hover a {
     color: #00004d;
 }
 
