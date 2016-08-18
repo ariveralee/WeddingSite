@@ -1822,6 +1822,13 @@
     border: .20em solid #2d2d2d;
 }
 
+#about iframe {
+    padding: 2.5px;
+    border: .20em solid #2d2d2d;
+    max-width: 50em;
+    max-height: 30em;
+}
+
 #about .engagement {
     max-width: 0.5em;
     max-height: 0.5em;
@@ -1904,7 +1911,7 @@
     max-width: 380px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 300;
     /*font-size: 15px;*/
@@ -2003,8 +2010,16 @@
     font-weight: 300;
 }
 
-#footer h3 {
-    color: #bdbdbd;
+#footer h1{
+    color: #282828;
+    font-size: 2em;
+    font-family: Papyrus, fantasy;
+    font-style: italic;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: 4px;
+    margin: 10px 0 20px;
+    margin-top: -25px;
 }
 
 #footer h4 {
@@ -2047,16 +2062,6 @@
     color: inherit;
 }
 
-
-/* removed */
-
-
-/*
-#footer ul .email:hover a {
-    color: #000000;
-}
-*/
-
 #footer ul .target:hover a {
     color: #e60000;
 }
@@ -2073,13 +2078,13 @@
 /* for the font at the bottom */
 
 #footer .license {
-    text-transform: none;
-    font-family: Georgia, sans-serif;
-    color: #bdbdbd;
+    font-family: Papyrus, fantasy;
+    font-style: italic;
+    color: #282828;
     letter-spacing: 1px;
     font-size: 11px;
     margin-top: 45px;
-    margin-bottom: -130px;
+    margin-bottom: -135px;
 }
 
 #footer .license a {
