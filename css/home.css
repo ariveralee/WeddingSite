@@ -1982,7 +1982,6 @@
     letter-spacing: 0.5px;
     margin: 30px auto 35px;
     line-height: 25px;
-    max-width: 500px;
     color: #666666;
     text-transform: none;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
@@ -1997,6 +1996,7 @@
     text-transform: none;
     letter-spacing: 1px;
     margin: 10px 0 20px;
+    text-align: center;
 }
 
 #contact a {
