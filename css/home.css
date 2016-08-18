@@ -1809,9 +1809,30 @@
     letter-spacing: 0.03em;
     line-height: 1.4em;
     font-weight: 300;
-    max-width: 40em;
+    max-width: 75%;
     text-align: center;
+    font-family: Papyrus, fantasy;
+    text-transform: none;
 }
+
+/* strictly used for the engagement date */
+#about h2 {
+    color: #666666;
+    margin: 0 auto;
+    font-size: 1.2em;
+    letter-spacing: 0.03em;
+    line-height: 3em;
+    font-weight: 300;
+    max-width: 100%;
+    text-align: center;
+    font-family: Papyrus, fantasy;
+    text-transform: none;
+}
+#about p:after {
+    content:"\a";
+    white-space: pre;
+}
+
 
 #about img {
     min-width: 20em;
