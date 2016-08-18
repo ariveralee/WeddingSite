@@ -1822,16 +1822,25 @@
     border: .20em solid #2d2d2d;
 }
 
-#about iframe {
-    padding: 2.5px;
-    border: .20em solid #2d2d2d;
-    max-width: 50em;
-    max-height: 30em;
+
+/* For the youtube video, responsive embedding */
+
+#about .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
 }
 
-#about .engagement {
-    max-width: 0.5em;
-    max-height: 0.5em;
+#about .embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -2010,7 +2019,7 @@
     font-weight: 300;
 }
 
-#footer h1{
+#footer h1 {
     color: #282828;
     font-size: 2em;
     font-family: Papyrus, fantasy;
