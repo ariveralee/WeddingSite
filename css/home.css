@@ -5,10 +5,10 @@
 .brand h1,
 .brand h2,
 #introduction .chevron,
-#about h1,
-#interests p,
-#contact p,
-#contact .paperplane,
+#story h1,
+#wedding p,
+#travel p,
+#travel .paperplane,
 #quote .author,
 #footer ul {
     display: table;
@@ -1639,8 +1639,8 @@
 }
 
 .navigation #navicon.closed:after {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    content: 'MENU';
+    font-family: Papyrus, fantasy;
+    content: 'Menu';
     display: block;
 }
 
@@ -1660,7 +1660,7 @@
     right: 0;
     z-index: 999;
 }
-
+/* For the font on the cover page */
 .brand h1 {
     text-transform: none;
     letter-spacing: 0.3em;
@@ -1669,7 +1669,7 @@
     font-weight: 650;
     padding: 0.3em;
     color: white;
-    margin-top: 57px;
+    margin-top: -100px;
     padding-left: 1em;
     font-family: Papyrus, fantasy;
     animation-delay: 0.7s;
@@ -1687,8 +1687,8 @@
     -o-animation-delay: 1s;
     ms-animation-delay: 1s;
     color: white;
-    font-size: 1.5em;
-    text-shadow: 4px 4px 10px #3B3B3B;
+    font-size: 1.8em;
+    text-shadow: 8px 8px 20px #3B3B3B;
     font-family: Papyrus, fantasy;
     font-weight: 650;
     letter-spacing: 0.3em;
@@ -1700,7 +1700,7 @@
     width: 100%;
     height: 100%;
     position: relative;
-    background: url("../images/intro.jpg") no-repeat center center scroll;
+    background: url("../images/lajolla.jpg") no-repeat center center scroll;
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1741,13 +1741,13 @@
     color: whitesmoke;
 }
 
-#about {
+#story {
     padding: 100px 0 140px;
     font-family: Papyrus, fantasy;
     background: whitesmoke;
 }
 
-#about h1 {
+#story h1 {
     font-size: 2em;
     color: #282828;
     font-family: Papyrus, fantasy;
@@ -1759,7 +1759,7 @@
     margin-bottom: 15px;
 }
 
-#about h3 {
+#story h3 {
     font-size: 1.5em;
     color: #282828;
     font-family: Papyrus, fantasy;
@@ -1774,7 +1774,7 @@
 
 /* there's no a elements here so this is used for the resume icon */
 
-#about a {
+#story a {
     color: #7c8184;
     padding-bottom: 2px;
     border-bottom: none;
@@ -1789,11 +1789,11 @@
     list-style: none;
 }
 
-#about a:hover {
+#story a:hover {
     color: #e60000;
 }
 
-#about .dash {
+#story .dash {
     animation-duration: 3.5s;
     -webkit-animation-duration: 3.5s;
     -moz-animation-duration: 3.5s;
@@ -1802,7 +1802,7 @@
     background: lightgray;
 }
 
-#about p {
+#story p {
     color: #666666;
     margin: 0 auto;
     font-size: 1.15em;
@@ -1816,7 +1816,7 @@
 }
 
 /* strictly used for the engagement date */
-#about h2 {
+#story h2 {
     color: #666666;
     margin: 0 auto;
     font-size: 1.2em;
@@ -1828,13 +1828,13 @@
     font-family: Papyrus, fantasy;
     text-transform: none;
 }
-#about p:after {
+#story p:after {
     content:"\a";
     white-space: pre;
 }
 
 
-#about img {
+#story img {
     min-width: 20em;
     min-height: 10em;
     max-width: 50em;
@@ -1846,7 +1846,7 @@
 
 /* For the youtube video, responsive embedding */
 
-#about .embed-container {
+#story .embed-container {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
@@ -1854,7 +1854,7 @@
     max-width: 100%;
 }
 
-#about .embed-container iframe,
+#story .embed-container iframe,
 .embed-container object,
 .embed-container embed {
     position: absolute;
@@ -1866,7 +1866,7 @@
     border: .20em solid #2d2d2d;
 }
 
-#interests {
+#wedding {
     padding-top: 70px;
     padding-bottom: 105px;
     background: white;
@@ -1876,7 +1876,7 @@
     position: relative;
 }
 
-#interests h1 {
+#wedding h1 {
     margin-bottom: 35px;
     font-size: 2em;
     font-weight: 300;
@@ -1887,39 +1887,39 @@
     font-style: italic;
 }
 
-#interests .bold {
+#wedding .bold {
     font-weight: 600;
 }
 
-#interests a {
+#wedding a {
     color: black;
     padding-bottom: 2px;
     border-bottom: 1px solid black;
 }
 
-#interests a:hover {
+#wedding a:hover {
     border-bottom: 1px dashed black;
 }
 
-#interests i {
+#wedding i {
     font-size: 3em;
     color: #737373;
 }
 
-#interests .row:last-child {
+#wedding .row:last-child {
     border-top: 1px solid #ebebeb;
 }
 
-#interests .row .column {
+#wedding .row .column {
     padding: 30px;
     border-left: 1px solid #ebebeb;
 }
 
-#interests .row .column:first-of-type {
+#wedding .row .column:first-of-type {
     border-left: none;
 }
 
-#interests h3 {
+#wedding h3 {
     font-weight: 400;
     color: #4c4c4c;
     letter-spacing: 0.2em;
@@ -1930,7 +1930,7 @@
     text-transform: none;
 }
 
-#interests p {
+#wedding p {
     color: #595959;
     max-width: 380px;
     padding-top: 10px;
@@ -1944,11 +1944,11 @@
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
-#interests .dash {
+#wedding .dash {
     background: lightgray;
 }
 
-#contact {
+#travel {
     padding-top: 120px;
     padding-bottom: 200px;
     position: relative;
@@ -1957,11 +1957,11 @@
     text-align: center;
 }
 
-#contact i {
+#travel i {
     font-size: 2.5em;
 }
 
-#contact h1 {
+#travel h1 {
     color: #282828;
     font-size: 2em;
     font-family: Papyrus, fantasy;
@@ -1972,11 +1972,11 @@
     margin: 10px 0 20px;
 }
 
-#contact h1 div {
+#travel h1 div {
     display: inline-block;
 }
 
-#contact p {
+#travel p {
     font-size: 1.15em;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -1987,7 +1987,7 @@
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
-#contact h3 {
+#travel h3 {
     color: #666666;
     font-size: 1.15em;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
@@ -1999,7 +1999,7 @@
     text-align: center;
 }
 
-#contact a {
+#travel a {
     font-size: 1em;
     font-weight: 300;
     letter-spacing: 1px;
@@ -2008,7 +2008,7 @@
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
-#contact a.contact {
+#travel a.travel {
     padding: 8px 15px;
     border: 1px solid lightgray;
     border-radius: 3px;
@@ -2018,12 +2018,12 @@
     color: #282828;
 }
 
-#contact a.contact i {
+#travel a.travel i {
     margin-left: 10px;
     font-size: 20px;
 }
 
-#contact a:hover {
+#travel a:hover {
     color: #282828;
 }
 
