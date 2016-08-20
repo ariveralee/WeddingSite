@@ -1660,7 +1660,10 @@
     right: 0;
     z-index: 999;
 }
+
+
 /* For the font on the cover page */
+
 .brand h1 {
     text-transform: none;
     letter-spacing: 0.3em;
@@ -1815,11 +1818,13 @@
     text-transform: none;
 }
 
+
 /* strictly used for the engagement date */
+
 #story h2 {
     color: #666666;
     margin: 0 auto;
-    font-size: 1.2em;
+    font-size: 1.4em;
     letter-spacing: 0.03em;
     line-height: 3em;
     font-weight: 300;
@@ -1828,11 +1833,11 @@
     font-family: Papyrus, fantasy;
     text-transform: none;
 }
+
 #story p:after {
-    content:"\a";
+    content: "\a";
     white-space: pre;
 }
-
 
 #story img {
     min-width: 20em;
@@ -1989,7 +1994,7 @@
 
 #travel h3 {
     color: #666666;
-    font-size: 1.15em;
+    font-size: 1.2em;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
     font-style: none;
     font-weight: 300;
@@ -1997,6 +2002,7 @@
     letter-spacing: 1px;
     margin: 10px 0 20px;
     text-align: center;
+    text-transform: lowercase;
 }
 
 #travel a {
