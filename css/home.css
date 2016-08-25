@@ -1815,12 +1815,11 @@
     text-transform: none;
 }
 
-/* strictly used for the engagement date */
 #story h2 {
     color: #666666;
     margin: 0 auto;
-    font-size: 1.2em;
-    letter-spacing: 0.03em;
+    font-size: 1.1em;
+    letter-spacing: 0.02em;
     line-height: 3em;
     font-weight: 300;
     max-width: 100%;
