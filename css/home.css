@@ -1660,7 +1660,10 @@
     right: 0;
     z-index: 999;
 }
+
+
 /* For the font on the cover page */
+
 .brand h1 {
     text-transform: none;
     letter-spacing: 0.3em;
@@ -1815,7 +1818,9 @@
     text-transform: none;
 }
 
+
 /* strictly used for the engagement date */
+
 #story h2 {
     color: #666666;
     margin: 0 auto;
@@ -1828,11 +1833,11 @@
     font-family: Papyrus, fantasy;
     text-transform: none;
 }
+
 #story p:after {
-    content:"\a";
+    content: "\a";
     white-space: pre;
 }
-
 
 #story img {
     min-width: 20em;
@@ -2028,7 +2033,7 @@
 }
 
 #footer {
-    padding: 65px 0 150px;
+    padding: 120px 0 200px;
     background: #ffffff;
     text-align: center;
     font-weight: 300;
@@ -2086,6 +2091,17 @@
     color: inherit;
 }
 
+#footer p {
+    font-size: 1.15em;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin: 30px auto 35px;
+    line-height: 25px;
+    color: #666666;
+    text-transform: none;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
 #footer ul .target:hover a {
     color: #e60000;
 }
@@ -2107,8 +2123,8 @@
     color: #282828;
     letter-spacing: 1px;
     font-size: 11px;
-    margin-top: 45px;
-    margin-bottom: -135px;
+    margin-top: 150px;
+    margin-bottom: -175px;
 }
 
 #footer .license a {
